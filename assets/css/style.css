@@ -85,9 +85,19 @@ a {
     word-spacing: 10px;
 }
 
+a:link {
+    color: dodgerblue; 
+    text-decoration: none;
+}
+
 a:hover {
     color: red;
     text-decoration: underline;
+}
+
+a:visited {
+    color: deepskyblue;
+    text-decoration: none;
 }
 
 h2 {
@@ -121,6 +131,30 @@ p {
     width: 250px;
 }
 
+.connect {
+    width: 200px;
+    border: solid 3px #ddd;
+    float: right;
+    margin-top:100px;
+    padding: 25px
+}
+
+.icons {
+    display: inline-block;
+    margin: 0px 5px 30px 0px;
+    width: 60px
+    height: 60px;
+}
+
+.icons:hover {
+    box-shadow: 4px 4px 2px #4AAAA5;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
 
 img {
 	border-radius: 25px;
@@ -160,20 +194,4 @@ p {
     overflow: auto;
 }
 
-
-
-a:link {
-    color: dodgerblue; 
-    text-decoration: none;
-}
-
-a:visited {
-    color: deepskyblue;
-    text-decoration: none;
-}
-
-a:active {
-    color: yellow;
-    text-decoration: underline;
-}
 
