@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<!--secret instructions for interpretation of the rest of the page*/ -->
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css">  -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>JGeloBiography</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Index</title>
+	<!--
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	-->
 </head>
-
-
-<body background="h3po4_1600.jpg" alt="Background Image">
-	
-	<header>Jamie Gelo</header>
-
-	<div class="blocks">
-		<p><img src="IMG_2256.jpg" alt="Picture of Author" title="tooltip" height="220px" width="240px">
-			<br>
-			about me <br><br>
-			Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!		
-		</p>
-	</div>
-	
-<div class="clearfix">	
-	<div class="blocks1">
-		<h3>Connect With Me</h3>
-	
-		<ul>
-			<li><strong>Email: </strong><a href="jgelo@mac.com" target="_blank">jgelo@mac.com</a></li>
-			<li><strong>Github: </strong><a href="#" target="_blank">Geelow123</a></li>
-			<li><strong>Portfolio: </strong><a href="#" >Coming Soon</a></li>
-		</ul>
-	</div>	
+<div id="main-menu">
+	<header>
+		<div class="banner">
+		<h1>Jamie Gelo</h1>
+			<div class="link-box">
+				<a href="index.html">About | </a>
+				<a href="portfolio.html">Portfolio | </a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>	
+	</header>
 </div>
 
-	<footer>Images and content are the product of a student and should be treated with relatively no seriousness</footer>
-</body>
+<body>
+	<div class="content">
+		<section class="container">
+			<h2>about me</h2>
+			<br>
+			<img src="assets/images/JGelo.jpg" alt="Picture of Author" id="face">
+			<p>Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!</p>
+		</section>
+		
+		<section class="connect">
+			<h3>Connect With Me</h3>
+			<br>
+			<a href="https://github.com/geelow" target="_blank"><img source="assets/images/Github.png" class="icons" alt="github-icon"></a>
+			<a href="https://www.linkedin.com/in/jamie-gelo-csm-cspo-833a8311/" target="_blank"><img src="assets/images/linkedin.png" class="icons" alt="linkedin-icon"></a>
+			<a href="jgelo@mac.com" target="_blank"><img src="assets/images/mail-icon.png" class="icons" alt="Email-address"></a>
+		</section>	
+	</div>
+</body>		
+
+<footer>Images and content are the product of a student and should be treated with relatively no seriousness
+</footer>
+<script type="text/javascript">
+	window.addEventListener('scroll', function () {
+  	document.body.classList[
+    window.scrollY > 20 ? 'add': 'remove'
+  ]('scrolled');
+});
+</script>
 </html>
